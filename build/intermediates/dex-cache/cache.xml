@@ -2,139 +2,22 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="/Users/raliclo/work/proj/moe-ex/moe-samples-java/Calculator/android/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/raliclo/work/proj/moe-ex/moe-samples-java/Calculator/common/build/libs/common.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
-        <dex dex="/Users/raliclo/work/proj/moe-ex/moe-samples-java/Calculator/android/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.1.0_ba51dcf012c6cae93275d3bbc1a363867e27e6d5/classes.dex" />
+        sha1="f13251fef191cf035888270572e57c7249b168dd">
+        <dex dex="/Users/raliclo/work/proj/moe-ex/moe-samples-java/Calculator/android/build/intermediates/pre-dexed/debug/common_dcbfeaf4809d17c2ef869551d2295cd6b9edd5bd.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/raliclo/work/proj/moe-ex/moe-samples-java/Calculator/android/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/raliclo/work/proj/moe-ex/moe-samples-java/Calculator/android/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.1.0_78ae413a52a40a7021df3a84ed8e3108fd2a6653/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/raliclo/work/proj/moe-ex/moe-samples-java/Calculator/android/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
-        <dex dex="/Users/raliclo/work/proj/moe-ex/moe-samples-java/Calculator/android/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.1.0_9653755e2d0e71dc4aae4b7e9e96aa6f2c558676/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/raliclo/work/proj/moe-ex/moe-samples-java/Calculator/android/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
-        <dex dex="/Users/raliclo/work/proj/moe-ex/moe-samples-java/Calculator/android/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.1.0_6fb505371b1809b64e086b033ac0160691a64180/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/raliclo/work/proj/moe-ex/moe-samples-java/Calculator/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
-        <dex dex="/Users/raliclo/work/proj/moe-ex/moe-samples-java/Calculator/android/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.1.0_63b054e63564de958c76ad9d8274d7387161eca5/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/raliclo/work/proj/moe-ex/moe-samples-java/Calculator/android/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
-        <dex dex="/Users/raliclo/work/proj/moe-ex/moe-samples-java/Calculator/android/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.1.0_c0201402e0bf6767039e2492ba9bd8111626cc53/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/raliclo/work/proj/moe-ex/moe-samples-java/Calculator/android/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="aee64634871d88a419d59eb743c1258a60f19700">
-        <dex dex="/Users/raliclo/work/proj/moe-ex/moe-samples-java/Calculator/android/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.1.0_cdd8c62d7ca23a94e8f57348edb2c1ef4363eb3f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
+        is-multidex="false"
         jar="/Users/raliclo/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
-        <dex dex="/Users/raliclo/work/proj/moe-ex/moe-samples-java/Calculator/android/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.0_39be80e32aaad948354c0686ae6d43bbc5168915/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/raliclo/work/proj/moe-ex/moe-samples-java/Calculator/android/build/intermediates/exploded-aar/com.android.support/design/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
-        <dex dex="/Users/raliclo/work/proj/moe-ex/moe-samples-java/Calculator/android/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.1.0_4807d5a6488102e0ec97f0098ca63b7506fcfd5b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/raliclo/work/proj/moe-ex/moe-samples-java/Calculator/android/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="84a9c3975676646d346689089307e0b1c5f5002a">
-        <dex dex="/Users/raliclo/work/proj/moe-ex/moe-samples-java/Calculator/android/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_aa62953e1c77dbc43ac02b97a56cfc22f9048705/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/raliclo/work/proj/moe-ex/moe-samples-java/Calculator/android/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
-        <dex dex="/Users/raliclo/work/proj/moe-ex/moe-samples-java/Calculator/android/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.1.0_49a86a1f9b93cbc545de9ec616a1092b7e62fb13/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/raliclo/work/proj/moe-ex/moe-samples-java/Calculator/android/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
-        <dex dex="/Users/raliclo/work/proj/moe-ex/moe-samples-java/Calculator/android/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.1.0_d659516c0240dd5057c6aca02f2d780fa505acde/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/raliclo/work/proj/moe-ex/moe-samples-java/Calculator/android/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="af27742217739cfe1ffd76c9dd8554a27a9018c8">
-        <dex dex="/Users/raliclo/work/proj/moe-ex/moe-samples-java/Calculator/android/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_a5d9f7d8684172e0c90256631c214f8f134c0340/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/raliclo/work/proj/moe-ex/moe-samples-java/Calculator/android/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
-        <dex dex="/Users/raliclo/work/proj/moe-ex/moe-samples-java/Calculator/android/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.1.0_a05f545e6456416d6ae5c04daf9636d8c6666a31/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/raliclo/work/proj/moe-ex/moe-samples-java/Calculator/android/build/intermediates/exploded-aar/com.android.support/transition/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
-        <dex dex="/Users/raliclo/work/proj/moe-ex/moe-samples-java/Calculator/android/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.1.0_0d8d2294ef95aeb47b489c2f8718b59df35100bf/classes.dex" />
+        <dex dex="/Users/raliclo/work/proj/moe-ex/moe-samples-java/Calculator/android/build/intermediates/pre-dexed/debug/support-annotations-25.1.0_39be80e32aaad948354c0686ae6d43bbc5168915.jar" />
     </item>
 
 </items>
