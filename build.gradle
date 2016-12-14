@@ -18,3 +18,13 @@ allprojects {
     }
     apply plugin: 'eclipse'
 }
+// Compile / Test / Read report
+task lint(type: Exec) {
+    workingDir './'
+    commandLine 'open'
+    args './build/reports/tests/test/index.html'
+    standardOutput = new ByteArrayOutputStream()
+    ext.output = {
+        return standardOutput.toString()
+    }
+}
