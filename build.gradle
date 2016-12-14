@@ -12,12 +12,17 @@ buildscript {
     }
 }
 
+plugins {
+    id "com.jtransc" version "0.5.2"
+}
+
 allprojects {
     repositories {
         jcenter()
     }
     apply plugin: 'eclipse'
 }
+
 // Compile / Test / Read report
 task lint(type: Exec) {
     workingDir './'
