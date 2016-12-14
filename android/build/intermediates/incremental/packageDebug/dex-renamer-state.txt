@@ -1,7 +1,0 @@
-#Tue Dec 13 17:42:55 PST 2016
-base.0=/Users/raliclo/work/proj/moe-ex/moe-samples-java/Calculator/android/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_aa62953e1c77dbc43ac02b97a56cfc22f9048705
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=/Users/raliclo/work/proj/moe-ex/moe-samples-java/Calculator/android/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_a5d9f7d8684172e0c90256631c214f8f134c0340/classes.dex
-base.1=/Users/raliclo/work/proj/moe-ex/moe-samples-java/Calculator/android/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_a5d9f7d8684172e0c90256631c214f8f134c0340
-file.0=/Users/raliclo/work/proj/moe-ex/moe-samples-java/Calculator/android/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_aa62953e1c77dbc43ac02b97a56cfc22f9048705/classes.dex
