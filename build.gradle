@@ -22,7 +22,7 @@ allprojects {
 task lint(type: Exec) {
     workingDir './'
     commandLine 'open'
-    args './build/reports/tests/test/index.html'
+    args './android/build/outputs/lint-results-debug.html'
     standardOutput = new ByteArrayOutputStream()
     ext.output = {
         return standardOutput.toString()
