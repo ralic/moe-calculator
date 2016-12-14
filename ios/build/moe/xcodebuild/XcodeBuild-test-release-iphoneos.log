@@ -1,0 +1,24 @@
+Build settings from command line:
+    CONFIGURATION_BUILD_DIR = /Users/raliclo/work/proj/moe-ex/moe-samples-java/Calculator/ios/build/moe/xcodebuild/Release-iphoneos
+    DEVELOPMENT_TEAM = 566HC72JGY
+    DSTROOT = /Users/raliclo/work/proj/moe-ex/moe-samples-java/Calculator/ios/build/moe/xcodebuild/dst
+    MOE_GRADLE_EXTERNAL_BUILD = YES
+    OBJROOT = /Users/raliclo/work/proj/moe-ex/moe-samples-java/Calculator/ios/build/moe/xcodebuild/obj
+    ONLY_ACTIVE_ARCH = NO
+    SDKROOT = iphoneos10.1
+    SHARED_PRECOMPS_DIR = /Users/raliclo/work/proj/moe-ex/moe-samples-java/Calculator/ios/build/moe/xcodebuild/shared_precomps
+    SYMROOT = /Users/raliclo/work/proj/moe-ex/moe-samples-java/Calculator/ios/build/moe/xcodebuild/sym
+
+=== BUILD TARGET Calculator-Test OF PROJECT Calculator WITH CONFIGURATION Release ===
+
+Check dependencies
+No profiles for 'org.moe.samples.Calculator' were found:  Xcode couldn't find a provisioning profile matching 'org.moe.samples.Calculator'.
+Code signing is required for product type 'Application' in SDK 'iOS 10.1'
+Code signing is required for product type 'Application' in SDK 'iOS 10.1'
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)

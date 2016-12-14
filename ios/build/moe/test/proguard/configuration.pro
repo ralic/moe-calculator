@@ -1,0 +1,115 @@
+
+####################
+# Generating -injars
+####################
+
+-injars /Users/raliclo/.moe/moe-sdk-1.2.5/sdk/moe-ios-junit.jar(!**.framework/**,!**.bundle/**)
+
+#####################
+# Generating -outjars
+#####################
+
+-outjars "/Users/raliclo/work/proj/moe-ex/moe-samples-java/Calculator/ios/build/moe/test/proguard/output.jar"
+
+#########################
+# Generating -libraryjars
+#########################
+
+-libraryjars /Users/raliclo/.moe/moe-sdk-1.2.5/sdk/moe-ios.jar
+-libraryjars /Users/raliclo/.moe/moe-sdk-1.2.5/tools/java8support.jar
+-libraryjars /Users/raliclo/.moe/moe-sdk-1.2.5/sdk/moe-core.jar
+
+#####################################################################
+# Appending from /Users/raliclo/.moe/moe-sdk-1.2.5/tools/proguard.cfg
+#####################################################################
+
+-ignorewarn
+-dontobfuscate
+-dontoptimize
+-printseeds
+-printusage
+-verbose
+-dontskipnonpubliclibraryclassmembers
+-forceprocessing
+
+-dontnote scala.Enumeration
+-dontnote org.xml.sax.EntityResolver
+
+-keepclasseswithmembers public class * {
+    public static void main(java.lang.String[]);
+}
+
+-keepclasseswithmembers class * {
+    @org.junit.* <methods>;
+}
+
+-keepclasseswithmembers class * {
+    native <methods>;
+}
+
+-keepclassmembers class * extends org.moe.natj.general.NativeObject {
+    <init>();
+    <init>(org.moe.natj.general.Pointer);
+    @org.moe.natj.objc.ann.Selector *;
+}
+
+-keepclassmembers class * extends junit.framework.TestCase {
+    *;
+}
+
+-keepclassmembers class * {
+    static long __natjCache;
+}
+
+-keep class * extends junit.framework.TestCase
+
+-keep class org.junit.** { *; }
+
+-keep public class * extends android.app.backup.BackupAgent
+-keep public class * extends android.appwidget.AppWidgetProvider
+-keep class scala.collection.SeqLike { public java.lang.String toString(); }
+-keep class scala.reflect.ScalaSignature
+-keepclassmembers class * implements java.io.Serializable {
+                    private static final java.io.ObjectStreamField[] serialPersistentFields;
+                    private void writeObject(java.io.ObjectOutputStream);
+                    private void readObject(java.io.ObjectInputStream);
+                    java.lang.Object writeReplace();
+                    java.lang.Object readResolve();
+                   }
+
+-keep class * implements **$Block_** {
+    *;
+}
+
+-keep class * implements **$Function_** {
+    *;
+}
+
+-keep @org.moe.natj.general.ann.RegisterOnStartup public class * {
+    *;
+}
+
+-keep @org.moe.natj.general.ann.Keep public class * {
+    *;
+}
+
+-keepclasseswithmembers class * {
+    @org.moe.natj.general.ann.Keep *;
+}
+
+-keepinnerclasses interface * extends org.moe.natj.c.OpaquePtr {
+    class *$Impl;
+}
+
+-keepclassmembers class **$Impl implements org.moe.natj.c.OpaquePtr {
+    <init>(org.moe.natj.general.Pointer);
+}
+
+-keep class apple.foundation.NSException { *; }
+
+-keepclassmembers enum * {
+    public static **[] values();
+    public static ** valueOf(java.lang.String);
+}
+
+-keepattributes InnerClasses

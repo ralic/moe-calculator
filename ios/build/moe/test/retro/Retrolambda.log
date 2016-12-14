@@ -1,0 +1,7 @@
+Retrolambda 2.0.2-SNAPSHOT
+Bytecode version: 51 (Java 7)
+Default methods:  true
+NatJ support:     true
+Input directory:  /Users/raliclo/work/proj/moe-ex/moe-samples-java/Calculator/ios/build/moe/test/retro/input
+Output directory: /Users/raliclo/work/proj/moe-ex/moe-samples-java/Calculator/ios/build/moe/test/retro/output
+Classpath:        /Users/raliclo/work/proj/moe-ex/moe-samples-java/Calculator/ios/build/moe/test/retro/input:/Users/raliclo/.moe/moe-sdk-1.2.5/sdk/moe-ios.jar:/Users/raliclo/.moe/moe-sdk-1.2.5/tools/java8support.jar:/Users/raliclo/.moe/moe-sdk-1.2.5/sdk/moe-core.jar
