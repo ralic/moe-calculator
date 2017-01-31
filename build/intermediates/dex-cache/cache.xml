@@ -3,21 +3,21 @@
 
     <item
         is-multidex="false"
-        jar="/Users/raliclo/work/proj/moe-ex/moe-samples-java/Calculator/common/build/libs/common.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="f13251fef191cf035888270572e57c7249b168dd">
-        <dex dex="/Users/raliclo/work/proj/moe-ex/moe-samples-java/Calculator/android/build/intermediates/pre-dexed/debug/common_dcbfeaf4809d17c2ef869551d2295cd6b9edd5bd.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/raliclo/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
         <dex dex="/Users/raliclo/work/proj/moe-ex/moe-samples-java/Calculator/android/build/intermediates/pre-dexed/debug/support-annotations-25.1.0_39be80e32aaad948354c0686ae6d43bbc5168915.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/raliclo/work/proj/moe-ex/moe-samples-java/Calculator/common/build/libs/common.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9bfc5bdf8b9c88da50ba2b798deebb1a32ea1058">
+        <dex dex="/Users/raliclo/work/proj/moe-ex/moe-samples-java/Calculator/android/build/intermediates/pre-dexed/debug/common_dcbfeaf4809d17c2ef869551d2295cd6b9edd5bd.jar" />
     </item>
 
 </items>

@@ -22,9 +22,21 @@ test { exclude '**' }
 
 // Setup Multi-OS Engine
 moe {
-    xcode.project 'xcode/ios.xcodeproj'
-    xcode.mainTarget 'ios'
-    xcode.testTarget 'ios-Test'
+    xcode {
+        // Object, path to the Xcode project.
+        project 'xcode/ios.xcodeproj'
+        // Object, path to the Xcode workspace.
+//        workspace
+        // String, name of the main target.
+        mainTarget 'ios'
+        // String, name of the test target.
+        testTarget 'ios-Test'
+        // String, name of the main scheme.
+//        mainScheme
+        // String, name of the test scheme.
+//        testScheme
+    }
+    proguardLevel 'platform'
 }
 
 dependencies {
