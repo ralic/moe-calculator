@@ -5,7 +5,11 @@
       <GradleProjectSettings>
         <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+<<<<<<< HEAD
         <option name="gradleHome" value="/usr/local/Cellar/gradle/3.4.1/libexec" />
+=======
+        <option name="gradleHome" value="/usr/local/Cellar/gradle/3.4/libexec" />
+>>>>>>> d94a01887dac626aa7edc82725948ba9ac5f9549
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
