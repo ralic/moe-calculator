@@ -4,4 +4,4 @@
 
 2) Good for Android SDK 25 -- Tested on 3/2
 
-3) Good for iOS 10.1 -- Tested on 3/2
+3) Good for iOS 10.2 -- Tested on 3/2
