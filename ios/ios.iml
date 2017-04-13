@@ -31,6 +31,7 @@
     <orderEntry type="module" module-name="common" exported="" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="moe-core" level="project" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="moe-ios" level="project" />
+    <orderEntry type="library" exported="" scope="PROVIDED" name="java8support" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="moe-ios-junit" level="project" />
   </component>
 </module>
