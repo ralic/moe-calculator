@@ -10,7 +10,7 @@ android {
 
     defaultConfig {
         applicationId "org.moe.samples.calculator.android"
-        minSdkVersion 20
+        minSdkVersion 25
         targetSdkVersion 25
         versionCode 1
         versionName "1.0"
