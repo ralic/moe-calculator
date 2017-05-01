@@ -23,12 +23,15 @@ allprojects {
     apply plugin: 'eclipse'
 }
 
+apply plugin: 'java'
+
 // Compile / Test / Read report
 task lint(type: Exec) {
     workingDir './'
     commandLine 'open'
     args './android/build/outputs/lint-results-debug.html'
-    standardOutput = new ByteArrayOutputStream()
+
+    standardOutput = new ByteArrayOutputStream();
     ext.output = {
         return standardOutput.toString()
     }
